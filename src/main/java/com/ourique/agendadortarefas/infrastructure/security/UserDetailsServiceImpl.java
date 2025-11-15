@@ -3,8 +3,6 @@ package com.ourique.agendadortarefas.infrastructure.security;
 
 import com.ourique.agendadortarefas.business.dto.UsuarioDTO;
 import com.ourique.agendadortarefas.infrastructure.client.UsuarioClient;
-import com.ourique.usuario.infrastructure.entity.Usuario;
-import com.ourique.usuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
